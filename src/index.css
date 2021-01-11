@@ -11,3 +11,133 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#section1 {
+  background-color: black;
+  color: white;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  text-align: center;
+}
+
+#main-name {
+ font-size: 4em;
+ padding: 10px;
+ margin-bottom: 15px;
+ border-bottom: 1px solid white;
+}
+
+#photo-section {
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  color: #222222;
+  background-color: white;
+  text-align: center;
+  font-size: x-large;
+}
+
+#section2 {
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  align-items: 0;
+}
+
+#sec2title {
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+#statrow {
+  text-align: center;
+}
+
+.colTitle {
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  font-weight: bold;
+  font-size: x-large;
+}
+
+#statcol1 {
+  border-right: 1px solid black;
+  color: #003057;
+}
+
+#statcol2 {
+  color: #B3A369;
+  border-left: 1px solid black;
+}
+
+#statrow p {
+  /* font-family: 'Lato', sans-serif; */
+  font-size: large;
+}
+
+#bonus-stat {
+  /* font-family: 'Lato', sans-serif; */
+  font-size: large;
+  padding-top: 0.5em;
+  text-align: center;
+  background: linear-gradient(to right, #003057, #B3A369);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.square {
+  float:left;
+  position: relative;
+  width: 10%;
+  padding-bottom : 8.9%; /* = width for a 1:1 aspect ratio */
+  margin: .55%;
+  /* margin-top:.4%;
+  margin-bottom:.4%;
+  margin-left:.55%;
+  margin-right:.55%; */
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+  background-color:#ECECEC;
+  transition: .5s ease;
+}
+
+.nameBox {
+  float:left;
+  position: relative;
+  width: 54.5%;
+  padding-bottom : 8.9%; /* = width for a 1:1 aspect ratio */
+  margin: .55%;
+  background-color:#ECECEC; 
+}
+
+#name {
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  font-weight: bold;
+  position: absolute;
+  width:100%;
+  padding-top: 2%;
+  letter-spacing: 0.05em;
+}
+#gtcs {
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  position: absolute;
+  width: 100%;
+  padding-top: 9%;
+  /* margin-bottom: -2em;
+  padding-bottom: -2em; */
+}
+
+/* .square:hover{
+  background:#ECECEC;
+} */
+
+.img_1-1:hover{background-image:url('https://lh3.googleusercontent.com/CaC0jnq3gTlAI-Ut3CUlUr3YXkUZWKAZaROVWtS26tJVF_0OU-LLp5ss_ClIjYIFoUr8inOVqCL2RCDOk8oklo_sE99s7xndmtIjFPZJQmsVi_U7re6ysMQuUnCxCbjwS4PCChldbdE=w2400');}
+.img_1-2:hover{background-image:url('https://lh3.googleusercontent.com/SYk_-uvnDrGWl2V57zM4b_KYP2Z5SM07J2gBX3nThRtkY002L8kTqKVNwTsxOeJ238IsZ_p7tIwsbkbdIDt9ineF0pvM5YGSjcqNVGv4YhIKno-mayf1nbW4_h5ISs6QzduBj9gfIug=w2400');}
+.img_1-3:hover{background-image:url('https://lh3.googleusercontent.com/-19ThcTUhKqwxwrKyGqeIYdJC2iXGLngV1w5UMlvi4K6yYnJUx5PYGwOMwyDqhNMq2rN6lX8S5wgcbKJRQ8m86diCoGhIvZsdnw2lm_cLh-ly8MY9SP61tYuHZ3Hk3d5chRUFS1_T3g=w2400');}
+
+.img_2-1:hover{background-image:url('https://lh3.googleusercontent.com/JlbOhHGlt-TLEq5_0VR1w-J0xiX0Prf5NDhLeJcfWfGLZs7pml7rhR04-4ZpyO0Nl-C8vmIfChZjDj8e7fGzpc42Zifi7oiaQKg6aYq93giub6kjn08572_wUzPsgPfGTPREE3X0NOc=w2400');}
+.img_2-2:hover{background-image:url('https://lh3.googleusercontent.com/Zs9xUOksGu0ZryaOlRNY2oj3X9gVJ2GWHom7RnHsAXIlfB0deDMNllmp4x0I5sD3WIzLcYOgz-3dVNn5wvXht7MttdJtP-U4JCeKe4z-jxs9WOrbJBS4Ak-OudvTMqXrQpveuBCR2iY=w2400');}
+.img_2-3:hover{background-image:url('https://lh3.googleusercontent.com/sl37JClub3RsEeydnEQWos4mdefEsgM-pmqegiO7eNI_7ppcTHlI4nZj7w6CPWiJbsBXD0RoqmiSNWWlbxFbs7knC5y6TYRU4ypFp3ajClJpW2WvSQ8APtHncpU814JTd75cI2cFT9U=w2400');}
+
+.img_3-1:hover{background-image:url('https://lh3.googleusercontent.com/OAOJ5ganIumN-hRR0wKggq7tL6xrCsk4yuTq-uLY5eEXbyESV3F2QBuWxJ5nNTruhAHvZ0M5yIgJlsBm09H6-P64agJ2RBcvt060UnPTi7rUgd4kJZ5bmTnmo37TENrw6BBjg98kfgs=w2400');}
+.img_3-2:hover{background-image:url('https://lh3.googleusercontent.com/1by-a7BveINVRtg9wCW2K5_WTl5IZwkCjPflO0aFwGfUZeO5Mpv90vy4xMwi0thXLBXYxt15Xay3Sv4opX1dBErijttd3APCKsFXOC8zfl2XNE93FHnUpxZEiXkaeP0em4EPhrPHyGM=w2400');}
+.img_3-3:hover{background-image:url('https://lh3.googleusercontent.com/lYQEbzaNixGEEtnC8QOlqIZRxPSQVH3atyGNdHSq4zuDuDKrYMCLgDw-pEDSeW2-o-SkyLFvWcU0SL8tuB9ooCt-3DsbKPKvmUpm8GsZPTDNyPb-_h6_PkESxnNKkikaVTS6UMvDJuc=w2400');}
