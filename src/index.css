@@ -81,6 +81,27 @@ code {
   -webkit-text-fill-color: transparent;
 }
 
+#project {
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  text-align: center;
+  list-style-position: inside;
+  /* background-color: #060CE9;
+  color: white; */
+}
+
+#project-title {
+  background-color: #060CE9;
+  color: #FFCC00;
+  padding: 2em 0em;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.jeopardy-buttons {
+  margin: 0.5em;
+}
+
 .square {
   float:left;
   position: relative;

@@ -43,6 +43,26 @@ const Fullpage = () => (
             </Row>
             <p id="bonus-stat">3-time ACC Academic Honor Roll</p>
           </Container>
+
+          <div className="section" id="project">
+            <h2 id="project-title">Personal Project: Jeopardy!</h2>
+            <h4>Play Jeopardy with the questions from full past games!</h4>
+            <p>I threw this together one finals week when I didn't have any exams.</p>
+            <hr />
+            <h5>Allows for separate devices to join the same game, using game code:</h5>
+            <ul>
+              <li>Game board to be displayed on a TV or Zoom chat, for example</li>
+              <li>3 players, with functioning real-time buzzers</li>
+              <li>A "Trebek" screen for a host to see the answers and determine if players are correct</li>
+            </ul>
+            <form target="_blank" className="jeopardy-buttons" action="https://mpreilly.github.io/jeopardy/">
+              <input type="submit" value="Go to Jeopardy" />
+            </form>
+            <form target="_blank" className="jeopardy-buttons" action="https://github.com/mpreilly/jeopardy">
+              <input type="submit" value="See on Github" />
+            </form>
+          </div>
+
           <div className="section" id="photo-section">
             <div class="square img_3-3" style={{backgroundColor:'#B3A369'}} />
             <div class="square img_3-1" style={{backgroundColor:'#003057'}} />
