@@ -21,21 +21,25 @@ const Fullpage = () => (
         <ReactFullpage.Wrapper>
           
           <div className="section" id="section1">
-            <h1 id="main-name">Michael Reilly</h1>
-            <h3>This is Mike's website.</h3>
+            <div id="name-container">
+              <h1 id="main-name">Michael Reilly</h1>
+            </div>
+            <div id="quote-container">
+              <h5 id="quote">"Simplicity is the ultimate sophistication"</h5>
+            </div>
           </div>
 
           <Container className="section" id="section2">
             <h1 id="sec2title">Mike at Georgia Tech</h1>
             <Row id="statrow">
               <Col id="statcol1">
-                <h2 class="colTitle">Student</h2>
+                <h2 class="colTitle" id="col1Title">Student</h2>
                 <p>3.93 Cumulative GPA</p>
                 <p>Internships at The Home Depot & BlackRock</p>
                 <p>Graduated in 3.5 years</p>
               </Col>
               <Col id="statcol2">
-                <h2 class="colTitle">Athlete</h2>
+                <h2 class="colTitle" id="col2Title">Athlete</h2>
                 <p>Cross Country and Track & Field</p>
                 <p>4:08 Mile</p>
                 <p>~2600 Miles per Year</p>
