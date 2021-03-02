@@ -231,16 +231,17 @@ code {
 
 #project-title {
   color: #060CE9;
-  padding: 0.5em 0 0em 0;
 }
 
 #jeopardy-headline {
   border-top: 1px solid #FFCC00;
   border-bottom: 1px solid #FFCC00;
+  padding: 0.5em;
 }
 
 #jeopardy-details {
   margin: 1em 0;
+  padding: 0.5em;
 }
 
 .jeopardy-button {
