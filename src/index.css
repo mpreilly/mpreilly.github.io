@@ -165,13 +165,18 @@ code {
 
 #sec2title {
   /* font-family: 'Noto Sans JP', sans-serif; */
-  font-weight: bold;
+  /* font-weight: bold; */
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  width: 100%;
   text-align: center;
-  padding-bottom: 0.5em;
+  padding: 0.5em;
+  margin: 0.5em 0;
 }
 
 #statrow {
   text-align: center;
+  padding: 0.5em;
 }
 
 .colTitle {

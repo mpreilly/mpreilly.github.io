@@ -41,26 +41,28 @@ const Fullpage = () => (
               
           </div>
 
-          <Container className="section" id="section2">
+          <div className="section" id="section2">
             <div id="nav-hint-up"></div>
             <h1 id="sec2title">Mike at Georgia Tech</h1>
-            <Row id="statrow">
-              <Col id="statcol1">
-                <h2 class="colTitle" id="col1Title">Student</h2>
-                <p>3.93 Cumulative GPA</p>
-                <p>Internships at The Home Depot & BlackRock</p>
-                <p>Graduated in 3.5 years</p>
-              </Col>
-              <Col id="statcol2">
-                <h2 class="colTitle" id="col2Title">Athlete</h2>
-                <p>Cross Country and Track & Field</p>
-                <p>4:08 Mile</p>
-                <p>~2600 Miles per Year</p>
-              </Col>
-            </Row>
+            <Container>
+              <Row id="statrow">
+                <Col id="statcol1">
+                  <h2 class="colTitle" id="col1Title">Student</h2>
+                  <p>3.93 Cumulative GPA</p>
+                  <p>Internships at The Home Depot & BlackRock</p>
+                  <p>Graduated in 3.5 years</p>
+                </Col>
+                <Col id="statcol2">
+                  <h2 class="colTitle" id="col2Title">Athlete</h2>
+                  <p>Cross Country and Track & Field</p>
+                  <p>4:08 Mile</p>
+                  <p>~2600 Miles per Year</p>
+                </Col>
+              </Row>
+            </Container>
             <p id="bonus-stat">3-time ACC Academic Honor Roll</p>
             <div id="nav-hint-down"></div>
-          </Container>
+          </div>
 
           <div className="section" id="project">
             <div id="nav-hint-up"></div>
